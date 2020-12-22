@@ -2,7 +2,7 @@
 2020-12-22
 
 ### Project Title
-City Bike Share Analysis
+Bike Share Analysis for U.S. cities
 
 ### Description
 The purpose of this project is understand and analysis the U.S. bike share data from the city of Chicago, New York City and Washington D.C.
