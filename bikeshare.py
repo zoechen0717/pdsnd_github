@@ -24,6 +24,7 @@ def get_filters():
     city=input('\nWhich city? chicago, new york city, washington\n').lower()
     while city not in ['chicago', 'new york city', 'washington']:
         print("\n plase Enter chicago, new york city or washington" )
+        # get user reenter the message for correct inputs
         city=input('\nWhich city? chicago, new york city, washington\n').lower()
 
     # get user input for month (all, january, february, ... , june)
