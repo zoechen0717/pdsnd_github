@@ -1,5 +1,5 @@
 ### Date created
-2020-12-22
+2020-12-22 Tue 16:30 PM
 
 ### Project Title
 Bike Share Analysis for U.S. cities
