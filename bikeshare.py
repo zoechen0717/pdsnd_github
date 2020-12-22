@@ -24,18 +24,21 @@ def get_filters():
     city=input('\nWhich city? chicago, new york city, washington\n').lower()
     while city not in ['chicago', 'new york city', 'washington']:
         print("\n plase Enter chicago, new york city or washington" )
+        # get user reenter the message for correct inputs
         city=input('\nWhich city? chicago, new york city, washington\n').lower()
 
     # get user input for month (all, january, february, ... , june)
     month=input('\nWhich month? \nall, january, february, march, april, may, june\n').lower()
     while month not in list(month_2_number.keys())+['all']:
         print("\n plase only Enter the correct month" )
+        # get user reenter the message for correct inputs
         month=input('\nWhich month? \nall, january, february, march, april, may, june\n').lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day=input('\nWhich day of the week? \nall, monday, tuesday, ... sunday\n').lower()
     while day not in list(dayofweek.keys())+['all']:
         print("\n plase only Enter the correct day of the week, such as monday, tuesday, etc.")
+        # get user reenter the message for correct inputs
         day=input('\nWhich day of the week? \nall, monday, tuesday, ... sunday\n').lower()
 
     print('-'*40)
@@ -165,7 +168,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
 
         CONTINUE='yes'
         while CONTINUE=='yes':
