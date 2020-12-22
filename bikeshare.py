@@ -30,6 +30,7 @@ def get_filters():
     month=input('\nWhich month? \nall, january, february, march, april, may, june\n').lower()
     while month not in list(month_2_number.keys())+['all']:
         print("\n plase only Enter the correct month" )
+        # get user reenter the message for correct inputs
         month=input('\nWhich month? \nall, january, february, march, april, may, june\n').lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -165,7 +166,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
 
         CONTINUE='yes'
         while CONTINUE=='yes':
