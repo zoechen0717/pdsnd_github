@@ -37,6 +37,7 @@ def get_filters():
     day=input('\nWhich day of the week? \nall, monday, tuesday, ... sunday\n').lower()
     while day not in list(dayofweek.keys())+['all']:
         print("\n plase only Enter the correct day of the week, such as monday, tuesday, etc.")
+        # get user reenter the message for correct inputs
         day=input('\nWhich day of the week? \nall, monday, tuesday, ... sunday\n').lower()
 
     print('-'*40)
